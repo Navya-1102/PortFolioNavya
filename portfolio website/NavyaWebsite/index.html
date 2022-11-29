@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/css/">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+.bgimage
+{ 
+    background-image: url("../images\ /background.jpeg");
+    background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
+.heading1
+{
+font-size:100px;
+text-align:center;
+position: absolute;
+top: 30%;
+left: 23%;
+
+}
+
+.heading2
+{
+font-size: 25px;
+text-align:justify;
+position: absolute;
+top: 55%;
+left: 50%;
+transform: translate(-50%, -50%); 
+}
+.descText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+
+.card-title {
+    text-align: center;
+}
+
+.descText:hover {
+    border: 3px solid #e19224;
+}
+
+
+
+
+
+
+
+</style>
+
+   <body>
+
+
+<nav id="nav-example" class="nav justify-content-center fixed-top">
+    <a class="nav-link text-dark" href="#div1">Homepage</a>
+    <a class="nav-link text-dark" href="#div2">Gallery</a>
+    <a class="nav-link text-dark" href="#div3">Blog</a>
+    <a class="nav-link text-dark" href="#div4">Contact</a>
+</nav>
+
+<div data-bs-spy="scroll" data-bs-target="#nav-example" data-bs-smooth-scroll="true" tabindex="0">
+
+<div id="div1" style="height:100vh" class="bgimage"> 
+
+<!-- home page -->
+    <div class="container-fluid bgimage">
+        <div class="row bgimage">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="heading1"><b>NAVYA CHAWLA</b></h1>
+            <h4 class="heading2">I am an aspiring communication designer who has a 
+                                  strong zeal for work. I like to explore new ways
+                                  of working and experiment with my creative thoughts
+                                  of ideas. </h4>   
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div id="div2" class="bgimageheight: 550px;" style="height:100vh">
+           
+<!---Carousel1-->
+<div class="container-fluid">
+    <div  class="col-12 col-sm-12 col-md-12 col-lg-12 ">
+        <h3 class="Type" 
+          style="text-align:center; 
+          font-size:21pt; 
+          font-weight:bold;
+           color:rgb(91, 78, 19); 
+           font-family:Helvetica, sans-serif; 
+           letter-spacing: 2px;
+           padding:6%; ">MY GALLERY OF ARTWORKS</h3>
+          
+      </div>
+
+    <div style="width:50vw; " id="myCarousel" class="carousel slide m-auto" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+        <!-- Numbers -->
+        <button type="button" data-bs-target="myCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="myCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="myCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="myCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="myCarousel" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="myCarousel" data-bs-slide-to="5"></button>
+        <button type="button" data-bs-target="myCarousel" data-bs-slide-to="6"></button>
+      </div>
+      
+        <!-- Content -->
+        <div class="carousel-inner">
+        <div class="item active">
+            <div class="carousel-item active">
+                <img class="d-block" src="../images /IMG_1855.JPG" style="width:100% ;  align-items: center; height: 550px;">
+             </div>
+    
+          <div class="carousel-item">
+            <img class="d-block" src="./images /Screenshot 2022-10-07 at 3.51.26 PM.png" style="width:100%; align-items: center;height: 550px;">
+        </div>
+        
+          <div class="carousel-item">
+            <img class="d-block" src="../images /Screenshot 2022-08-25 at 1.26.49 AM.png" style="width:100%;; align-items: center;height: 550px;">  
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block" src="../images /Screenshot 2022-08-25 at 2.07.16 AM.png" style="width:100%; align-items: center;height: 550px;">            
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block" src="../images /Screenshot 2022-08-25 at 2.24.56 AM.png" style="width:100%;align-items: center;height: 550px;">            
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block" src="../images /Screenshot 2022-10-07 at 1.43.33 PM.png" style="width:100%; align-items: center;height: 550px;">
+          </div>   
+
+          <div class="carousel-item">
+            <img class="d-block" src="../images /IMG_1857.jpg" style="width:100%; align-items: center;height: 550px;">               
+          </div>
+    
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+     </div>
+    </div>
+</div>
+</div>
+
+<div id="div3" class="bgimage" style="height:100vh ; padding-top: 60px;">
+<!--blog page -->
+  <div class="row">
+  <div class="col-lg-4 mt-4">
+    <div class="card descText">
+        <div class="card-body">
+            <h4 class="card-title mt-3">History of Design</h4>
+            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+        </div>
+    </div>  
+</div>
+<div class="col-lg-4 mt-4">
+    <div class="card descText">
+        <div class="card-body">
+            <h4 class="card-title mt-3">Core Lab Typography</h4>
+            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+        </div>
+</div>
+</div>  
+<div class="col-lg-4 mt-4">
+    <div class="card descText">
+        <div class="card-body">
+            <h4 class="card-title mt-3">Core Studio Typography</h4>
+            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+        </div>
+</div>
+</div>  
+<div class="col-lg-4 mt-4">
+    <div class="card descText">
+        <div class="card-body">
+            <h4 class="card-title mt-3">Creative Computing</h4>
+            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+        </div>
+</div>
+</div> 
+<div class="col-lg-4 mt-4">
+    <div class="card descText">
+        <div class="card-body">
+            <h4 class="card-title mt-3">Indian Aesthetics</h4>
+            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+        </div>
+</div>
+</div> 
+<div class="col-lg-4 mt-4">
+    <div class="card descText">
+        <div class="card-body">
+            <h4 class="card-title mt-3"><h4>Creating Form Pattern Repeat Design
+            </h4>
+            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+        </div>
+</div>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<div id="div4" class="bgimage" style="height:100vh;padding-top: 100px;">
+
+ <!-- form page -->
+    <form>
+    <input type="text" class="form-control form-control-lg" placeholder="First Name">
+    <input type="email" class="form-control mt-3" placeholder="Last Name">
+    <input type="text" class="form-control mt-3" placeholder="Email">
+    <div class="mb-3 mt-3">
+        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Feedback"></textarea>
+    </div>
+    </form>
+<button type="button" class="btn btn-success mt-3">Contact Me</button>
+</div>
+
+
+</body>
+</html>
+            
+        
+        
+  
